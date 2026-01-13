@@ -1,43 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-13T08:56:45 IST" name="Default suite" finished-at="2026-01-13T08:56:45 IST" duration-ms="38">
+  <suite started-at="2026-01-13T11:06:33 IST" name="Default suite" finished-at="2026-01-13T11:06:34 IST" duration-ms="1309">
     <groups>
     </groups>
-    <test started-at="2026-01-13T08:56:45 IST" name="Default test" finished-at="2026-01-13T08:56:45 IST" duration-ms="38">
+    <test started-at="2026-01-13T11:06:33 IST" name="Default test" finished-at="2026-01-13T11:06:34 IST" duration-ms="1309">
       <class name="aut.ApiTestRunner">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:aut.ApiTestRunner@3724af13]" started-at="2026-01-13T08:56:45 IST" name="beforeSuite" finished-at="2026-01-13T08:56:45 IST" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:aut.ApiTestRunner@481a996b]" started-at="2026-01-13T11:06:33 IST" name="beforeSuite" finished-at="2026-01-13T11:06:33 IST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:aut.ApiTestRunner@3724af13]" started-at="2026-01-13T08:56:45 IST" name="beforeMethod" finished-at="2026-01-13T08:56:45 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:aut.ApiTestRunner@481a996b]" started-at="2026-01-13T11:06:34 IST" name="beforeMethod" finished-at="2026-01-13T11:06:34 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void aut.ApiTestRunner.verifyLoggingSetup()]]>
+                <![CDATA[public void aut.ApiTestRunner.executeApiTest(java.util.Map)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyLoggingSetup()[pri:0, instance:aut.ApiTestRunner@3724af13]" started-at="2026-01-13T08:56:45 IST" name="verifyLoggingSetup" finished-at="2026-01-13T08:56:45 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoggingSetup -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:aut.ApiTestRunner@3724af13]" started-at="2026-01-13T08:56:45 IST" name="afterMethod" finished-at="2026-01-13T08:56:45 IST" duration-ms="1" status="PASS">
+        <test-method signature="executeApiTest(java.util.Map)[pri:0, instance:aut.ApiTestRunner@481a996b]" started-at="2026-01-13T11:06:34 IST" name="executeApiTest" data-provider="sampleapi" finished-at="2026-01-13T11:06:34 IST" duration-ms="28" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoggingSetup status=SUCCESS method=ApiTestRunner.verifyLoggingSetup()[pri:0, instance:aut.ApiTestRunner@3724af13] output={null}]]]>
+                <![CDATA[{TC_ID=TC_01, Endpoint=/users, Headers=H1, Run=Y, Method=GET, ExpectedStatus=200.0, Body=NA}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeApiTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:aut.ApiTestRunner@481a996b]" started-at="2026-01-13T11:06:34 IST" name="afterMethod" finished-at="2026-01-13T11:06:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=executeApiTest status=SUCCESS method=ApiTestRunner.executeApiTest(java.util.Map)[pri:0, instance:aut.ApiTestRunner@481a996b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:aut.ApiTestRunner@3724af13]" started-at="2026-01-13T08:56:45 IST" name="afterSuite" finished-at="2026-01-13T08:56:45 IST" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:aut.ApiTestRunner@481a996b]" started-at="2026-01-13T11:06:34 IST" name="beforeMethod" finished-at="2026-01-13T11:06:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void aut.ApiTestRunner.executeApiTest(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="executeApiTest(java.util.Map)[pri:0, instance:aut.ApiTestRunner@481a996b]" started-at="2026-01-13T11:06:34 IST" name="executeApiTest" data-provider="sampleapi" finished-at="2026-01-13T11:06:34 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC_ID=TC_03, Endpoint=/login, Headers=H2, Run=Y, Method=POST, ExpectedStatus=401.0, Body=B2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeApiTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:aut.ApiTestRunner@481a996b]" started-at="2026-01-13T11:06:34 IST" name="afterMethod" finished-at="2026-01-13T11:06:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=executeApiTest status=SUCCESS method=ApiTestRunner.executeApiTest(java.util.Map)[pri:0, instance:aut.ApiTestRunner@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:aut.ApiTestRunner@481a996b]" started-at="2026-01-13T11:06:34 IST" name="afterSuite" finished-at="2026-01-13T11:06:35 IST" duration-ms="292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

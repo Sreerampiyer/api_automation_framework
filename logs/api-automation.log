@@ -1,2 +1,14 @@
 2026-01-13 08:46:17 [main] INFO  aut.ApiTestRunner - API Automation Framework logging initialized successfully
 2026-01-13 08:56:45 [main] INFO  aut.ApiTestRunner - Extent report initialized successfully
+2026-01-13 10:12:18 [main] INFO  aut.ApiTestRunner - Executing Test Case : TC_01
+2026-01-13 10:12:18 [main] INFO  aut.ApiTestRunner - HTTP Method         : GET
+2026-01-13 10:12:18 [main] INFO  aut.ApiTestRunner - Endpoint            : /users
+2026-01-13 10:12:18 [main] INFO  aut.ApiTestRunner - Executing Test Case : TC_03
+2026-01-13 10:12:18 [main] INFO  aut.ApiTestRunner - HTTP Method         : POST
+2026-01-13 10:12:18 [main] INFO  aut.ApiTestRunner - Endpoint            : /login
+2026-01-13 11:06:34 [main] INFO  aut.ApiTestRunner - Executing Test Case : TC_01
+2026-01-13 11:06:34 [main] INFO  aut.ApiTestRunner - HTTP Method         : GET
+2026-01-13 11:06:34 [main] INFO  aut.ApiTestRunner - Endpoint            : /users
+2026-01-13 11:06:34 [main] INFO  aut.ApiTestRunner - Executing Test Case : TC_03
+2026-01-13 11:06:34 [main] INFO  aut.ApiTestRunner - HTTP Method         : POST
+2026-01-13 11:06:34 [main] INFO  aut.ApiTestRunner - Endpoint            : /login

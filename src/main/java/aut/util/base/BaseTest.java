@@ -1,9 +1,11 @@
 package aut.util.base;
 
 import com.aventstack.extentreports.ExtentReports;
+
 import com.aventstack.extentreports.ExtentTest;
-import aut.util.logging.*;
-import aut.util.reporting.*;
+
+import aut.util.*;
+import aut.util.*;
 
 import java.lang.reflect.Method;
 
